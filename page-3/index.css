@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+}
+
+.top-nav {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    box-shadow: -2px 2px 5px 10px rgb(238, 238, 231);
+    border: 4px solid white;
+
+}
+
+
+
+.tasks {
+    margin: 2px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10%;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 20px;
+
+}
+
+
+
+.list {
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    color: rgb(5, 109, 255);
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.upper-container {
+    width: 420px;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+
+    width: 20%;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.text1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.right {
+    
+    width: 40%;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.card-container {
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 10%;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cards {
+    margin: 10px;
+    width: 420px;
+    height: 320px;
+    border: 0px solid rgb(206, 189, 189);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(222, 222, 203);
+}
+
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.249);
+}
+
+
+
+h2 {
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #00A5EC;
+
+}
+
+
+.details1 {
+    text-decoration: line-through;
+    margin-top: 17px;
+    margin-left: 17px;
+    font-size: 20px;
+
+}
+
+
+.details2 {
+    margin-top: 15px;
+    margin-left: 17px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#check1 {
+    margin-right: 25px;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+#check2 {
+    margin-right: 25px;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+@media (200px < width<700px) {
+
+    .upper-container {
+        margin-left: 5%;
+        position: relative;
+        width: 90%;
+
+    }
+
+    .right {
+        width: 20%;
+        position: relative;
+        margin-right: 40%;
+
+        justify-content: center;
+    }
+
+    .left {
+        margin-left: 7%;
+        width: 25%;
+        justify-content: space-evenly;
+    }
+
+    .text2 {
+        display: none;
+    }
+
+    .btn2 {
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 10%;
+
+    }
+
+
+    .cards {
+        margin: 3%;
+    }
+
+    .top-container {
+        justify-content: center;
+        margin: 0;
+    }
+}
